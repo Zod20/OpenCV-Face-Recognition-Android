@@ -1,0 +1,111 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* _classpath
+* _project
+* ic_launcher-web.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\android-support-v4.jar => app\libs\android-support-v4.jar
+* libs\armeabi\libavcodec.so => app\src\main\jniLibs\armeabi\libavcodec.so
+* libs\armeabi\libavdevice.so => app\src\main\jniLibs\armeabi\libavdevice.so
+* libs\armeabi\libavfilter.so => app\src\main\jniLibs\armeabi\libavfilter.so
+* libs\armeabi\libavformat.so => app\src\main\jniLibs\armeabi\libavformat.so
+* libs\armeabi\libavutil.so => app\src\main\jniLibs\armeabi\libavutil.so
+* libs\armeabi\libjniARToolKitPlus.so => app\src\main\jniLibs\armeabi\libjniARToolKitPlus.so
+* libs\armeabi\libjniavcodec.so => app\src\main\jniLibs\armeabi\libjniavcodec.so
+* libs\armeabi\libjniavdevice.so => app\src\main\jniLibs\armeabi\libjniavdevice.so
+* libs\armeabi\libjniavfilter.so => app\src\main\jniLibs\armeabi\libjniavfilter.so
+* libs\armeabi\libjniavformat.so => app\src\main\jniLibs\armeabi\libjniavformat.so
+* libs\armeabi\libjniavutil.so => app\src\main\jniLibs\armeabi\libjniavutil.so
+* libs\armeabi\libjnicvkernels.so => app\src\main\jniLibs\armeabi\libjnicvkernels.so
+* libs\armeabi\libjniflandmark.so => app\src\main\jniLibs\armeabi\libjniflandmark.so
+* libs\armeabi\libjniopencv_calib3d.so => app\src\main\jniLibs\armeabi\libjniopencv_calib3d.so
+* libs\armeabi\libjniopencv_contrib.so => app\src\main\jniLibs\armeabi\libjniopencv_contrib.so
+* libs\armeabi\libjniopencv_core.so => app\src\main\jniLibs\armeabi\libjniopencv_core.so
+* libs\armeabi\libjniopencv_features2d.so => app\src\main\jniLibs\armeabi\libjniopencv_features2d.so
+* libs\armeabi\libjniopencv_flann.so => app\src\main\jniLibs\armeabi\libjniopencv_flann.so
+* libs\armeabi\libjniopencv_highgui.so => app\src\main\jniLibs\armeabi\libjniopencv_highgui.so
+* libs\armeabi\libjniopencv_imgproc.so => app\src\main\jniLibs\armeabi\libjniopencv_imgproc.so
+* libs\armeabi\libjniopencv_legacy.so => app\src\main\jniLibs\armeabi\libjniopencv_legacy.so
+* libs\armeabi\libjniopencv_ml.so => app\src\main\jniLibs\armeabi\libjniopencv_ml.so
+* libs\armeabi\libjniopencv_nonfree.so => app\src\main\jniLibs\armeabi\libjniopencv_nonfree.so
+* libs\armeabi\libjniopencv_objdetect.so => app\src\main\jniLibs\armeabi\libjniopencv_objdetect.so
+* libs\armeabi\libjniopencv_photo.so => app\src\main\jniLibs\armeabi\libjniopencv_photo.so
+* libs\armeabi\libjniopencv_stitching.so => app\src\main\jniLibs\armeabi\libjniopencv_stitching.so
+* libs\armeabi\libjniopencv_superres.so => app\src\main\jniLibs\armeabi\libjniopencv_superres.so
+* libs\armeabi\libjniopencv_video.so => app\src\main\jniLibs\armeabi\libjniopencv_video.so
+* libs\armeabi\libjniopencv_videostab.so => app\src\main\jniLibs\armeabi\libjniopencv_videostab.so
+* libs\armeabi\libjnipostproc.so => app\src\main\jniLibs\armeabi\libjnipostproc.so
+* libs\armeabi\libjniswresample.so => app\src\main\jniLibs\armeabi\libjniswresample.so
+* libs\armeabi\libjniswscale.so => app\src\main\jniLibs\armeabi\libjniswscale.so
+* libs\armeabi\libnative_camera_r2.2.0.so => app\src\main\jniLibs\armeabi\libnative_camera_r2.2.0.so
+* libs\armeabi\libnative_camera_r2.3.3.so => app\src\main\jniLibs\armeabi\libnative_camera_r2.3.3.so
+* libs\armeabi\libnative_camera_r3.0.1.so => app\src\main\jniLibs\armeabi\libnative_camera_r3.0.1.so
+* libs\armeabi\libnative_camera_r4.0.0.so => app\src\main\jniLibs\armeabi\libnative_camera_r4.0.0.so
+* libs\armeabi\libnative_camera_r4.0.3.so => app\src\main\jniLibs\armeabi\libnative_camera_r4.0.3.so
+* libs\armeabi\libnative_camera_r4.1.1.so => app\src\main\jniLibs\armeabi\libnative_camera_r4.1.1.so
+* libs\armeabi\libnative_camera_r4.2.0.so => app\src\main\jniLibs\armeabi\libnative_camera_r4.2.0.so
+* libs\armeabi\libnative_camera_r4.3.0.so => app\src\main\jniLibs\armeabi\libnative_camera_r4.3.0.so
+* libs\armeabi\libnative_camera_r4.4.0.so => app\src\main\jniLibs\armeabi\libnative_camera_r4.4.0.so
+* libs\armeabi\libopencv_calib3d.so => app\src\main\jniLibs\armeabi\libopencv_calib3d.so
+* libs\armeabi\libopencv_contrib.so => app\src\main\jniLibs\armeabi\libopencv_contrib.so
+* libs\armeabi\libopencv_core.so => app\src\main\jniLibs\armeabi\libopencv_core.so
+* libs\armeabi\libopencv_features2d.so => app\src\main\jniLibs\armeabi\libopencv_features2d.so
+* libs\armeabi\libopencv_flann.so => app\src\main\jniLibs\armeabi\libopencv_flann.so
+* libs\armeabi\libopencv_gpu.so => app\src\main\jniLibs\armeabi\libopencv_gpu.so
+* libs\armeabi\libopencv_highgui.so => app\src\main\jniLibs\armeabi\libopencv_highgui.so
+* libs\armeabi\libopencv_imgproc.so => app\src\main\jniLibs\armeabi\libopencv_imgproc.so
+* libs\armeabi\libopencv_legacy.so => app\src\main\jniLibs\armeabi\libopencv_legacy.so
+* libs\armeabi\libopencv_ml.so => app\src\main\jniLibs\armeabi\libopencv_ml.so
+* libs\armeabi\libopencv_nonfree.so => app\src\main\jniLibs\armeabi\libopencv_nonfree.so
+* libs\armeabi\libopencv_objdetect.so => app\src\main\jniLibs\armeabi\libopencv_objdetect.so
+* libs\armeabi\libopencv_photo.so => app\src\main\jniLibs\armeabi\libopencv_photo.so
+* libs\armeabi\libopencv_stitching.so => app\src\main\jniLibs\armeabi\libopencv_stitching.so
+* libs\armeabi\libopencv_superres.so => app\src\main\jniLibs\armeabi\libopencv_superres.so
+* libs\armeabi\libopencv_video.so => app\src\main\jniLibs\armeabi\libopencv_video.so
+* libs\armeabi\libopencv_videostab.so => app\src\main\jniLibs\armeabi\libopencv_videostab.so
+* libs\armeabi\libpostproc.so => app\src\main\jniLibs\armeabi\libpostproc.so
+* libs\armeabi\libswresample.so => app\src\main\jniLibs\armeabi\libswresample.so
+* libs\armeabi\libswscale.so => app\src\main\jniLibs\armeabi\libswscale.so
+* libs\armeabi\libtbb.so => app\src\main\jniLibs\armeabi\libtbb.so
+* libs\artoolkitplus.jar => app\libs\artoolkitplus.jar
+* libs\ffmpeg.jar => app\libs\ffmpeg.jar
+* libs\flandmark.jar => app\libs\flandmark.jar
+* libs\flycapture.jar => app\libs\flycapture.jar
+* libs\javacpp.jar => app\libs\javacpp.jar
+* libs\javacv.jar => app\libs\javacv.jar
+* libs\libdc1394.jar => app\libs\libdc1394.jar
+* libs\libfreenect.jar => app\libs\libfreenect.jar
+* libs\opencv.jar => app\libs\opencv.jar
+* libs\videoinput.jar => app\libs\videoinput.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

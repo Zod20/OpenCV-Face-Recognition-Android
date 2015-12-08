@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\ffmpeg.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b4793a738211cbcc9be0c57c3b6da1a261f73ab4">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\ffmpeg-ade6b3ea5947d2215159abee57d91de1a0a3d645.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\artoolkitplus.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9a23044129528e930efdf1874299fae21dd29582">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\artoolkitplus-a3c35a6eeae14991cb2594eb1e527cd904790b1e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\videoinput.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9c2e18e57dc2845b792d6828108d5ce6f5746168">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\videoinput-22f76c9df36986f6e06aab2e4eb1831a85dc0a74.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\flycapture.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="03b1d17b434206a1a86a20fab03757456fcc8097">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\flycapture-ec7417459d2c795b6733d2b175558066687c24f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\javacpp.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="255a55fca8f558bb2de0305b91048c59586c1de1">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\javacpp-c0a83cfc01a208084f066a8b9f7f5980b04747cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\javacv.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6c6b977efb90963587da9e2fead022d7c0677649">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\javacv-0f1b7cecf5a67cd0053475adea17f260d0f138fe.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\libdc1394.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cadd6fc64bd9f021dde94b5a733ddc463ef10ba4">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\libdc1394-27be4a010f615fb73795aaa7a20fc0b348f01e01.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\flandmark.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d7848d87b1ceb9adb1277d8d23eeb050679e8703">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\flandmark-447c1e5361ad7543b8b2040d4a0648e07aa8fe12.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\libfreenect.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7a1c5c5f498127c6cac407c33c04442febebadf5">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\libfreenect-4af83ea6d91bd48223f7b491b9bc6b0f25fda8b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\android-support-v4-559a99e9078ec705932b2967e6be4b05dbe64c97.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\libs\opencv.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="59bab66af4cb22e942ff4031f56c62382c21c59a">
+        <dex dex="C:\Users\Zodiac\Documents\AndroidStudioProjects\FaceDetectionJavaAndroid3\app\build\intermediates\pre-dexed\debug\opencv-a6bb6054ec5f66470701542944e1d2a1cfc9830b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    
+       
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    
+    <LinearLayout
+   		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginBottom="10dp"
+    	android:layout_marginRight="60dp"
+    	android:layout_marginLeft="60dp"
+    	android:orientation="vertical"
+    	android:gravity="center"
+        >
+        
+        
+        <TextView
+        android:id="@+id/ChooseAlgorithm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="20dp"
+          android:gravity="center"
+        android:text="Choose the recognition algorithm.." />
+        
+     <Button
+        android:id="@+id/Eigen"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Eigen face recogniser" />
+     
+     <Button
+        android:id="@+id/Fisher"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Fisher face recogniser" />
+    
+     <Button
+        android:id="@+id/LBP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="LBP recogniser" />
+     
+     
+    
+      <TextView
+        android:id="@+id/DeleteDatabaseText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="20dp"
+          android:gravity="center"
+        android:text="Delete the recognition database. WARNING the database will have to be trained from scratch." />
+      <Button
+        android:id="@+id/DeleteDatabaseButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Delete database..." />
+  
+       
+      <Button
+        android:id="@+id/Reset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Reset to factory default" />
+        
+     
+
+    </LinearLayout>
+    
+    </ScrollView>
+
+    
+
+</LinearLayout> 

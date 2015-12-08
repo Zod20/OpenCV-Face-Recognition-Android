@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    
+       
+    <ScrollView
+        android:id="@+id/lbpscrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    
+    <LinearLayout
+   		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginBottom="10dp"
+    	android:layout_marginRight="60dp"
+    	android:layout_marginLeft="60dp"
+    	android:orientation="vertical"
+    	android:gravity="center"
+        >
+        
+        
+        <TextView
+        android:id="@+id/radiusLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         
+        android:text="Radius" />
+        
+        
+    <EditText
+        android:id="@+id/LBPradius"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="50dp"
+         
+        android:ems="10"
+        android:inputType="number"
+        android:text="1" >
+
+        <requestFocus />
+    </EditText>
+         
+        
+    <TextView
+        android:id="@+id/NeigbourLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         
+        android:text="Number of neighbours" />
+        
+        
+    <EditText
+        android:id="@+id/LBPneighbours"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="50dp"
+         
+        android:ems="10"
+        android:inputType="number"
+         android:text="8" >
+
+        <requestFocus />
+    </EditText>
+   
+    <TextView
+        android:id="@+id/gridXlabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         
+        android:text="Number of cells in horizontal direction" />
+        
+        
+    <EditText
+        android:id="@+id/LBPgridX"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="50dp"
+         
+        android:ems="10"
+        android:inputType="number" 
+         android:text="8">
+
+        <requestFocus />
+    </EditText>
+    
+    
+    
+    <TextView
+        android:id="@+id/gridYlabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         
+        android:text="Number of cells in vertical direction" />
+        
+        
+    <EditText
+        android:id="@+id/LBPgridY"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="50dp"
+         
+        android:ems="10"
+        android:inputType="number" 
+         android:text="8">
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/threshold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         
+        android:text="Threshold" />
+        
+        
+    <EditText
+        android:id="@+id/LBPthreshold"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="50dp"
+         
+        android:ems="10"
+        android:inputType="number" 
+         android:text="100">
+
+        <requestFocus />
+    </EditText>
+    
+     <TextView
+        android:id="@+id/LBPInfoLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="20dp"
+          
+        android:text="Increasing the settings will make the recognition more accurate but will cause lag and may cause the system to crash. The default settings should work on more android phones." />
+      
+     
+    
+    
+     <Button
+        android:id="@+id/Save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="Save settings" />
+     
+     
+    
+     
+
+    </LinearLayout>
+    
+    </ScrollView>
+
+    
+
+</LinearLayout> 

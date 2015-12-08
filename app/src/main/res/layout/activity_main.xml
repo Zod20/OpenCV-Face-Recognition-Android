@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    
+       
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    
+    <LinearLayout
+   		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginBottom="10dp"
+    	android:layout_marginRight="60dp"
+    	android:layout_marginLeft="60dp"
+    	android:orientation="vertical"
+    	android:gravity="center"
+        >
+     <Button
+        android:id="@+id/Recognition"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Face Recognition" />
+    
+     <Button
+        android:id="@+id/TrainingButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Train" />
+     
+      <EditText
+        android:id="@+id/TrainingName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10" 
+        android:text="Your name..."
+        >
+        <requestFocus />
+    </EditText>
+     
+
+        <Button
+        android:id="@+id/RecognitionDatabase"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Image Database" />
+      
+      
+    <Button
+        android:id="@+id/Settings"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Settings" />
+    
+    <Button
+        android:id="@+id/About"
+          android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="About" />
+
+    </LinearLayout>
+    
+    </ScrollView>
+    
+
+</LinearLayout> 

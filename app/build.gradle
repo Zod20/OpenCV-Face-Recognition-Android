@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.zod.facedetectionjavaandroid"
+        minSdkVersion 11
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/artoolkitplus.jar')
+    compile files('libs/ffmpeg.jar')
+    compile files('libs/flandmark.jar')
+    compile files('libs/flycapture.jar')
+    compile files('libs/javacpp.jar')
+    compile files('libs/javacv.jar')
+    compile files('libs/libdc1394.jar')
+    compile files('libs/libfreenect.jar')
+    compile files('libs/opencv.jar')
+    compile files('libs/videoinput.jar')
+}

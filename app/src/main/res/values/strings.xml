@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UoM Face Recognition</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_recognition">Recognition</string>
+    <string name="title_activity_setting_main1">SettingMain1</string>
+    <string name="title_activity_real_time_recognition">RealTimeRecognition</string>
+    <string name="title_activity_aboutc">Aboutc</string>
+    <string name="title_activity_database">Database</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+</resources>

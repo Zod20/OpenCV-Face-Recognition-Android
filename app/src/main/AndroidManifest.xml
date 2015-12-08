@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zod.facedetectionjavaandroid"
+    android:versionCode="25"
+    android:versionName="2.2.3" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/camera"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Training"
+            android:label="@string/title_activity_recognition" >
+        </activity>
+        <activity
+            android:name=".SettingMain1"
+            android:label="@string/title_activity_setting_main1" >
+        </activity>
+        <activity
+            android:name=".RealTimeRecognition"
+            android:label="@string/title_activity_real_time_recognition" >
+        </activity>
+        <activity
+            android:name=".Aboutc"
+            android:label="@string/title_activity_aboutc" >
+        </activity>
+        <activity
+            android:name=".Database"
+            android:label="@string/title_activity_database"
+            android:theme="@style/DetailTheme" >
+        </activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:label="@string/title_activity_details"
+            android:theme="@style/DetailTheme" >
+        </activity>
+        <activity android:name=".SaveForAlignment" >
+        </activity>
+    </application>
+
+</manifest>

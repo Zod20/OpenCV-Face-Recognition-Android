@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Zodiac/Documents/AndroidStudioProjects/FaceDetectionJavaAndroid3/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="blue">#00abea</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/C:/Users/Zodiac/Documents/AndroidStudioProjects/FaceDetectionJavaAndroid3/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Zodiac/Documents/AndroidStudioProjects/FaceDetectionJavaAndroid3/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">UoM Face Recognition</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_aboutc">Aboutc</string>
+    <string name="title_activity_database">Database</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_real_time_recognition">RealTimeRecognition</string>
+    <string name="title_activity_recognition">Recognition</string>
+    <string name="title_activity_setting_main1">SettingMain1</string>
+    <!-- From: file:/C:/Users/Zodiac/Documents/AndroidStudioProjects/FaceDetectionJavaAndroid3/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="DetailTheme" parent="android:Theme.Holo">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

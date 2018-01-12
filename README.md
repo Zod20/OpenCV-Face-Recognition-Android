@@ -7,3 +7,7 @@ https://play.google.com/store/apps/details?id=com.zod.facedetectionjavaandroid&h
 
 
 Please check the Report.pdf file for detailed information on the project.
+
+![alt tag](https://i.imgur.com/tpSDeJO.jpg)
+
+![alt tag](https://i.imgur.com/6v1u02A.jpg)

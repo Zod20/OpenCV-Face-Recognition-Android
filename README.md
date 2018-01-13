@@ -6,8 +6,8 @@ Published on the Google Play Store
 https://play.google.com/store/apps/details?id=com.zod.facedetectionjavaandroid&hl=en
 
 
-<img src="https://i.imgur.com/tpSDeJO.jpg" width="400" height="200">
+<img src="https://i.imgur.com/tpSDeJO.jpg" width="300" height="150">
 
-<img src="https://i.imgur.com/6v1u02A.jpg" width="400" height="200">
+<img src="https://i.imgur.com/6v1u02A.jpg" width="300" height="150">
 
 Please check the Report.pdf file for detailed information on the project. Any questions or queries then shoot me a email!

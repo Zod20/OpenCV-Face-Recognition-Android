@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="artoolkitplus">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/artoolkitplus.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

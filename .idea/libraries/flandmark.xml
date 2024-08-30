@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="flandmark">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/flandmark.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

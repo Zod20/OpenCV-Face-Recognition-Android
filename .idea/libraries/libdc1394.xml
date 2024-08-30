@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="libdc1394">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/libdc1394.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

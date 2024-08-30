@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="flycapture">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/flycapture.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
